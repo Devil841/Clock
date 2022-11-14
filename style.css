@@ -15,11 +15,11 @@ body{
 }
 
 
-.clockdiv{
+.clockdiv {
     display: flex;
     flex: 1;
-    gap: 2rem;
-    margin: 0 20%;
+    gap: 1rem;
+    margin: 0px 3%;
     justify-content: center;
 }
 .elem{
