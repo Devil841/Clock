@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: url(back.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.clockdiv{
+    display: flex;
+    flex: 1;
+    gap: 2rem;
+    margin: 0 20%;
+    justify-content: center;
+}
+.elem{
+    min-height: max-content;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+}
+
+
+
+
+#hour, #minute, #second, #ampm{
+    font-size: 12rem;
+    color: rgb(199, 199, 199);
+}
+
+@media screen and (max-width:1100px){
+    #hour, #minute, #second, #ampm{
+        font-size: 10rem;
+    }
+}
+@media screen and (max-width:950px){
+    #hour, #minute, #second, #ampm{
+        font-size: 8rem;
+    }
+}
+@media screen and (max-width:800px){
+    #hour, #minute, #second, #ampm{
+        font-size: 7rem;
+    }
+}
+@media screen and (max-width:700px){
+    #hour, #minute, #second, #ampm{
+        font-size: 6rem;
+    }
+}
+@media screen and (max-width:600px){
+    #hour, #minute, #second, #ampm{
+        font-size: 5rem;
+    }
+}
+@media screen and (max-width:510px){
+    #hour, #minute, #second, #ampm{
+        font-size: 4rem;
+    }
+}
+@media screen and (max-width:440px){
+    #hour, #minute, #second, #ampm{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width:350px){
+    #hour, #minute, #second, #ampm{
+        font-size: 2rem;
+    }
+}
